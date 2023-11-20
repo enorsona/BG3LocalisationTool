@@ -1,0 +1,21 @@
+[Configuration]
+    application.language = 'zh_CN'
+    application.encode = 'utf-8'
+    resolutionX = 1280
+    resolutionY = 720
+[zh_CN]
+    application.title = '博德之门3语言文本处理工具'
+    application.fileSelect = '选择文件'
+    application.fileExport = '输出XML'
+    application.exportAction = '输出'
+    application.confirmBtn = '确认'
+    application.exportSuccessfully = '已成功输出至resource文件夹下'
+    application.lengthNotMatch = '文件行数不一致，请重新确认行数'
+[en_US]
+    application.title = "Baldur's Gate 3 Localisation Tool"
+    application.fileSelect = 'Select File'
+    application.fileExport = 'Export XML'
+    application.exportAction = 'Export'
+    application.confirmBtn = 'Ok'
+    application.exportSuccessfully = 'Export to resource folder successfully'
+    application.lengthNotMatch = 'Row count not match. (Raw | Translated) Please recheck your translated text'
