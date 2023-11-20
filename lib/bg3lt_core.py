@@ -46,6 +46,10 @@ class Initializer:
         unparsed = xmltodict.unparse(self.doneDict)
         XML = xml.dom.minidom.parseString(unparsed)
         processedXML = XML.toprettyxml(indent="    ", encoding=self.encode)
+        if os.path.exists('./resource/'):
+            pass
+        else:
+            os.mkdir('./resource')
         exportFilename = './resource/' + os.path.basename(filePath).lower().replace('.xml', '') + '_processed.xml'
         with open(exportFilename, mode='wb') as file:
             file.write(processedXML)
